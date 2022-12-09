@@ -91,6 +91,12 @@
         }
     }
 
+    a.mywork-link {
+        &:after {
+            content: 'MY WORK';
+        }
+    }
+
     a.active {
         svg {
             color: #ffd700;

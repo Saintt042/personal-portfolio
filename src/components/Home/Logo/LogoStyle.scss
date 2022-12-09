@@ -30,3 +30,24 @@
     }
 }
 
+@media screen and (max-width: 815px) {
+    .logo-container {
+        width: 300px;
+        right: 0;
+        left: 60%;
+    
+        svg {
+            width: 50%;
+            height: auto;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .solid-logo {
+        display: none;
+    }
+    .logo-container {
+        display: none;
+    }
+}
+
