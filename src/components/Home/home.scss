@@ -95,7 +95,7 @@
     margin-top: 65px;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 568px) {
   .home-page {
     .text-zone {
       left: 22%;
@@ -115,5 +115,33 @@
 
   h2 {
     width: 75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-page {
+    .text-zone {
+      top: 45%;
+      left: 25%;
+      width: 80%;
+      h1 {
+        font-size: 35px;
+
+        &::before {
+          left: 4px;
+        }
+        &::after {
+          top: 50%;
+        }
+      }
+    }
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .flat-button {
+    margin-bottom: 10px;
   }
 }

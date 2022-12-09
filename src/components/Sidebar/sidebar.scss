@@ -5,7 +5,7 @@
   position: absolute;
   top: 0;
   z-index: 3;
-  min-height: 500px;
+  min-height: 465px;
 
   .logo {
     display: block;
@@ -40,7 +40,7 @@
       font-size: 22px;
       color: #4d4d4e;
       display: block;
-      line-height: 51px;
+      line-height: 50px;
       position: relative;
       text-decoration: none;
 
@@ -80,27 +80,27 @@
     }
 
     a.about-link {
-        &:after {
-            content: 'ABOUT';
-        }
+      &:after {
+        content: 'ABOUT';
+      }
     }
 
     a.contact-link {
-        &:after {
-            content: 'CONTACT';
-        }
+      &:after {
+        content: 'CONTACT';
+      }
     }
 
     a.mywork-link {
-        &:after {
-            content: 'MY WORK';
-        }
+      &:after {
+        content: 'MY WORK';
+      }
     }
 
     a.active {
-        svg {
-            color: #ffd700;
-        }
+      svg {
+        color: #ffd700;
+      }
     }
   }
 
@@ -115,15 +115,25 @@
     margin: 0;
 
     li {
-        a {
-            padding: 7px 0;
-            display: block;
-            font-size: 15px;
-            line-height: 16px;
-            &:hover svg {
-                color: #ffd700;
-            } 
-        }  
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        &:hover svg {
+          color: #ffd700;
+        }
+      }
     }
   }
+}
+
+
+@media screen and (max-width: 815px) {
+}
+
+@media screen and (max-width: 568px) {
+}
+
+@media screen and (max-width: 320px) {
 }
